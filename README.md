@@ -1,4 +1,4 @@
 # PaoKuApp
-<<<<<<< HEAD
+
 Learning 
 
