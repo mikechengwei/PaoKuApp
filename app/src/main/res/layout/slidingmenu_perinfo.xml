@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/drawer_perinfo_bg"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_moren_touxiang"
+            app:riv_border_color="#ffffff"
+            app:riv_border_width="2dip"
+            app:riv_corner_radius="2dip"
+            app:riv_mutate_background="true"
+            app:riv_oval="true"
+            app:riv_tile_mode="repeat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/head"
+            android:layout_toRightOf="@+id/head"
+            android:layout_toEndOf="@+id/head"
+            android:text="呆萌兽"
+            android:layout_marginLeft="10dip"
+            android:layout_marginStart="10dip"
+            android:textSize="15sp"
+/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="40dip"
+        android:text="最想要去的地方，怎么能在半路返航"
+        android:maxEms="10"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="17sp" />
+</LinearLayout>

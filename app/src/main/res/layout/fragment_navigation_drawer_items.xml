@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_white_translucent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/slidingmenu_perinfo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginTop="5dip"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="8"
+        android:background="@drawable/drawer_list_bg"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/menu_query_all"
+                style="@style/MenuItemLayoutStyle"
+                android:background="#99fffcfc"
+                >
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dip"
+                    android:gravity="center"
+                    android:text="@string/drawer_item_woderenwu" />
+
+            </LinearLayout>
+
+            <View style="@style/h_line" />
+
+            <LinearLayout
+                android:id="@+id/menu_query_post"
+                style="@style/MenuItemLayoutStyle"
+                android:background="#99fffcfc">
+
+                <ImageView
+                    style="@style/MenuItemImageViewStyle"
+                    android:background="@drawable/icon_yuandian_lv"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:gravity="center"
+                    android:text="@string/drawer_item_wodedianpu" />
+            </LinearLayout>
+
+            <View style="@style/h_line" />
+
+            <LinearLayout
+                android:id="@+id/menu_query_kuaidi"
+                style="@style/MenuItemLayoutStyle"
+                android:background="#99fffcfc">
+
+                <ImageView
+                    style="@style/MenuItemImageViewStyle"
+                    android:background="@drawable/icon_yuandian_cheng"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/drawer_item_wodehaoyou" />
+            </LinearLayout>
+
+            <View style="@style/h_line" />
+
+            <LinearLayout
+                android:id="@+id/menu_query_zawu"
+                style="@style/MenuItemLayoutStyle"
+                android:background="#99fffcfc">
+
+                <ImageView
+                    style="@style/MenuItemImageViewStyle"
+                    android:background="@drawable/icon_yuandian_lan"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="@string/drawer_item_wodepingjia" />
+            </LinearLayout>
+
+            <View style="@style/h_line" />
+
+            <LinearLayout
+                android:id="@+id/menu_query_special"
+                style="@style/MenuItemLayoutStyle"
+                android:background="#99fffcfc">
+
+                <ImageView
+                    style="@style/MenuItemImageViewStyle"
+                    android:background="@drawable/icon_yuandian_huang"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    style="@style/MenuItemTextViewStyle"
+                    android:text="使用说明" />
+            </LinearLayout>
+
+            <View style="@style/h_line" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <include layout="@layout/fragment_navigation_drawer_foot"
+
+        />
+
+</LinearLayout>

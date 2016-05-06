@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">跑镖</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="renwufragment">任务</string>
+    <string name="dianpufragment">店铺</string>
+    <string name="tip_double_click_exit">再次点击退出</string>
+
+    <string name="drawer_item_woderenwu">我的任务</string>
+    <string name="drawer_item_wodedianpu">我的店铺</string>
+    <string name="drawer_item_wodepingjia">我的评价</string>
+    <string name="drawer_item_wodehaoyou">我的好友</string>
+
+    <!-- Error View -->
+    <string name="error_view_click_to_refresh">点击屏幕,重新加载</string>
+    <string name="error_view_no_data">暂无内容</string>
+    <string name="error_view_loading">加载中…</string>
+    <string name="error_view_load_error_click_to_refresh">内容加载失败\r\n点击重新加载</string>
+    <string name="error_view_network_error_click_to_refresh">没有可用的网络</string>
+    <string name="tip_network_error">没有可用的网络</string>
+</resources>

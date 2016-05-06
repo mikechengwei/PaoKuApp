@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="layout_item_bg" format="reference"/>
+
+    <attr name="windows_bg" format="reference"/>
+</resources>
